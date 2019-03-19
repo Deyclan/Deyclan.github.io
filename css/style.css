@@ -608,7 +608,7 @@ a.active {
     float: right;
     margin: 20px;
     font-size: 22px;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -627,6 +627,25 @@ a.active {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     line-height: 50px;
+}
+
+.slideshow {
+    width: 960px;
+    height: 540px;
+    position: relative;
+}
+
+.slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.slideshow > div >img {
+    width: 960px;
+    height: 540px;
 }
 
 
