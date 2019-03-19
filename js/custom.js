@@ -110,4 +110,28 @@ $(document).ready(function () {
         modalTarget: 'steamOutModal'
     });
 
+    $("#demo02").animatedModal({
+        modalTarget: 'HTBAHModal'
+    });
+
+    $("#demo03").animatedModal({
+        modalTarget: 'TimeCruiseModal'
+    });
+
+    $("#demo04").animatedModal({
+        modalTarget: 'URSSModal'
+    });
+
+    $("#demo05").animatedModal({
+        modalTarget: 'SpaceShooterModal'
+    });
+
+    $("#demo06").animatedModal({
+        modalTarget: 'OeuvreModal'
+    });
+
+    $("#demo07").animatedModal({
+        modalTarget: 'P2PModal'
+    });
+
 });

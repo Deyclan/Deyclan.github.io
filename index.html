@@ -219,7 +219,7 @@
 
                         <!-- How To Be A Hero -->
                         <div class="col-md-6 col-sm-6 scholar game">
-                            <a id="demo02" href="" class="portfolio_item"> <img src="img/portfolio/HTBAH1.PNG"
+                            <a id="demo02" href="#HTBAHModal" class="portfolio_item"> <img src="img/portfolio/HTBAH1.PNG"
                                                                                               alt="How To Be A Hero"
                                                                                               class="img-responsive"/>
                                 <div class="portfolio_item_hover">
@@ -234,7 +234,7 @@
 
                         <!-- Time Cruise -->
                         <div class="col-md-6 col-sm-6 scholar game">
-                            <a id="demo03" href="" class="portfolio_item"> <img src="img/portfolio/TimeCruise1.PNG"
+                            <a id="demo03" href="#TimeCruiseModal" class="portfolio_item"> <img src="img/portfolio/TimeCruise1.PNG"
                                                                                               alt="image"
                                                                                               class="img-responsive"/>
                                 <div class="portfolio_item_hover">
@@ -248,7 +248,7 @@
 
                         <!-- URSS -->
                         <div class="col-md-6 col-sm-6 jam game">
-                            <a id="demo04" href="" class="portfolio_item"> <img src="img/portfolio/URSS1.png"
+                            <a id="demo04" href="#URSSModal" class="portfolio_item"> <img src="img/portfolio/URSS1.png"
                                                                                               alt="URSS"
                                                                                               class="img-responsive"/>
                                 <div class="portfolio_item_hover">
@@ -262,7 +262,7 @@
 
                         <!-- Space Shooter -->
                         <div class="col-md-6 col-sm-6  game perso">
-                            <a id="demo05" href="" class="portfolio_item"> <img src="img/portfolio/SpaceShooter1.png"
+                            <a id="demo05" href="#SpaceShooterModal" class="portfolio_item"> <img src="img/portfolio/SpaceShooter1.png"
                                                                                               alt="Space Shooter"
                                                                                               class="img-responsive"/>
                                 <div class="portfolio_item_hover">
@@ -276,7 +276,7 @@
 
                         <!-- Projet Oeuvre -->
                         <div class="col-md-6 col-sm-6 scholar classical">
-                            <a id="demo06" href="" class="portfolio_item"> <img src="img/portfolio/web.jpg"
+                            <a id="demo06" href="#OeuvreModal" class="portfolio_item"> <img src="img/portfolio/web.jpg"
                                                                                 alt="Projet Oeuvre"
                                                                                 class="img-responsive"/>
                                 <div class="portfolio_item_hover">
@@ -290,7 +290,7 @@
 
                         <!-- Wifi P2P VOiP Trial -->
                         <div class="col-md-6 col-sm-6 scholar perso classical">
-                            <a id="demo07" href="" class="portfolio_item"> <img src="img/portfolio/06.jpg"
+                            <a id="demo07" href="#P2PModal" class="portfolio_item"> <img src="img/portfolio/06.jpg"
                                                                                               alt="Android P2P VOiP Trial"
                                                                                               class="img-responsive"/>
                                 <div class="portfolio_item_hover">
@@ -301,36 +301,6 @@
                             </a>
                         </div>
                         <!-- end WiFi P2P VOiP -->
-
-                        <!-- single work -->
-                        <!--
-                        <div class="col-md-4 col-sm-6 graphics ads">
-                            <a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/07.jpg"
-                                                                                              alt="image"
-                                                                                              class="img-responsive"/>
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"><span>Mobile devices</span> <em>Graphics / Ads</em></div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
-
-                        <!-- single work -->
-                        <!--
-                        <div class="col-md-4 col-sm-6 graphics ads">
-                            <a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/08.jpg"
-                                                                                              alt="image"
-                                                                                              class="img-responsive"/>
-                                <div class="portfolio_item_hover">
-                                    <div class="portfolio-border clearfix">
-                                        <div class="item_info"><span>Mobile devices</span> <em>Graphics / Ads</em></div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end single work -->
                     </div>
                     <!-- end portfolio_container -->
                 </div>
@@ -400,6 +370,7 @@
         </div>
     </div>
 </div>
+-->
 
 <!--SteamOut-->
 <div id="steamOutModal" class="popup-modal">
@@ -420,19 +391,20 @@
                     <br>
                     <p>Grâce à SteamOut, nous avons décroché le prix de l'audace de Frima Studio.</p>
                     <div class="slideshow">
-                        <div>
+                        <!-- class="slides" is needed for slideshow-->
+                        <div class="slidesSteamOut">
                             <img src="img/portfolio/SteamOutMenu.PNG" alt="img">
                         </div>
-                        <div>
+                        <div class="slidesSteamOut">
                             <img src="img/portfolio/SteamOut1.PNG" alt="img" />
                         </div>
-                        <div>
+                        <div class="slidesSteamOut">
                             <img src="img/portfolio/SteamOut2.PNG" alt="img">
                         </div>
-                        <div>
+                        <div class="slidesSteamOut">
                             <img src="img/portfolio/SteamOut3.PNG" alt="img" />
                         </div>
-                        <div>
+                        <div class="slidesSteamOut">
                             <img src="img/portfolio/SteamOut4.PNG" alt="img" />
                         </div>
                     </div>
@@ -443,10 +415,8 @@
 </div>
 
 <!--How To Be A Hero-->
-<!--
 <div id="HTBAHModal" class="popup-modal">
     <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-<!--
     <div id="btn-close-HTBAH-modal" class="close-HTBAHModal close-popup-modal"><i class="ion-close-round"></i></div>
     <div class="clearfix"></div>
     <div class="modal-content">
@@ -455,16 +425,137 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h2>How To Be A Hero</h2>
                     <div class="h-50"></div>
-                    <p>SteamOut est un jeu multijoueur online qui oppose deux équipes de 3 joueurs qui doivent se battre
-                        pour récupérer des ressources et s'enfuir de la planète sur laquelle ils se trouvent.</p>
+                    <p>How To Be A Hero est un jeu multijoueur local </p>
                     <br/>
-                    <p>Ce jeu a été développé en 48h lors de la Wonder Jam, une game jam organisé à l'Université du Québec à
-                        Chicoutimi et arbitrée par Ubisoft Saguenay, Frima Studio, Beenox et Totema Studio.</p>
-                    <br>
-                    <p>Grâce à SteamOut, nous avons décroché le prix de l'audace de Frima Studio.</p>
                     <div class="slideshow">
-                        <div>
+                        <div class="slidesHTBAH">
                             <img src="img/portfolio/HTBAH1.PNG" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Time Cruise-->
+<div id="TimeCruiseModal" class="popup-modal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-TimeCruise-modal" class="close-TimeCruiseModal close-popup-modal"><i class="ion-close-round"></i></div>
+    <div class="clearfix"></div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="portfolio-padding">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Time Cruise</h2>
+                    <div class="h-50"></div>
+                    <p> </p>
+                    <br/>
+                    <div class="slideshow">
+                        <div class="slidesTimeCruise">
+                            <img src="img/portfolio/TimeCruise1.PNG" alt="img">
+                        </div>
+                        <div class="slidesTimeCruise">
+                            <img src="img/portfolio/TimeCruise2.PNG" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--URSS-->
+<div id="URSSModal" class="popup-modal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-URSS-modal" class="close-URSSModal close-popup-modal"><i class="ion-close-round"></i></div>
+    <div class="clearfix"></div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="portfolio-padding">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Unbelievable Random Survival Show</h2>
+                    <div class="h-50"></div>
+                    <p></p>
+                    <br/>
+                    <div class="slideshow">
+                        <div class="slidesURSS">
+                            <img src="img/portfolio/URSS1.png" alt="img">
+                        </div>
+                        <div class="slidesURSS">
+                            <img src="img/portfolio/URSS2.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--SpaceShooter-->
+<div id="SpaceShooterModal" class="popup-modal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-SpaceShooter-modal" class="close-SpaceShooterModal close-popup-modal"><i class="ion-close-round"></i></div>
+    <div class="clearfix"></div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="portfolio-padding">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Space Shooter</h2>
+                    <div class="h-50"></div>
+                    <p></p>
+                    <br/>
+                    <div class="slideshow">
+                        <div class="slidesSpaceShooter">
+                            <img src="img/portfolio/SpaceShooter1.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Projet Oeuvre-->
+<div id="OeuvreModal" class="popup-modal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-Oeuvre-modal" class="close-OeuvreModal close-popup-modal"><i class="ion-close-round"></i></div>
+    <div class="clearfix"></div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="portfolio-padding">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Projet Oeuvre</h2>
+                    <div class="h-50"></div>
+                    <p></p>
+                    <br/>
+                    <div class="slideshow">
+                        <div class="slidesProjetOeuvre">
+                            <img src="img/portfolio/web.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--P2P VOiP-->
+<div id="P2PModal" class="popup-modal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-P2P-modal" class="close-P2PModal close-popup-modal"><i class="ion-close-round"></i></div>
+    <div class="clearfix"></div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="portfolio-padding">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Android VOiP via WiFi Direct</h2>
+                    <div class="h-50"></div>
+                    <p></p>
+                    <br/>
+                    <div class="slideshow">
+                        <div class="slidesP2PVOiP">
+                            <img src="img/portfolio/web.jpg" alt="img">
                         </div>
                     </div>
                 </div>
