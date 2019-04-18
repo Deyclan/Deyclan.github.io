@@ -588,6 +588,7 @@ a.active {
 
 .portfolio-padding {
     padding: 50px 0;
+    text-align: center;
 }
 
 .portfolio-inner {
@@ -633,6 +634,7 @@ a.active {
     width: 960px;
     height: 540px;
     position: relative;
+    display: inline-block;
 }
 
 .slideshow > div {

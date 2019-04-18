@@ -127,7 +127,7 @@ $(document).ready(function () {
     });
 
     $("#demo06").animatedModal({
-        modalTarget: 'OeuvreModal'
+        modalTarget: 'TravelExpressModal'
     });
 
     $("#demo07").animatedModal({

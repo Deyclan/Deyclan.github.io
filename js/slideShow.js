@@ -34,7 +34,7 @@ function showAllSlides() {
     showSlides("slidesTimeCruise");
     showSlides("slidesURSS");
     showSlides("slidesSpaceShooter");
-    showSlides("slidesProjetOeuvre");
+    showSlides("slidesTravelExpress");
     showSlides("slidesP2PVOiP");
     setTimeout(showAllSlides, 5000);
 }
