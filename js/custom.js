@@ -134,4 +134,8 @@ $(document).ready(function () {
         modalTarget: 'P2PModal'
     });
 
+    $("#demo08").animatedModal({
+        modalTarget: 'OtherModal'
+    });
+
 });
