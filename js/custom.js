@@ -138,4 +138,8 @@ $(document).ready(function () {
         modalTarget: 'OtherModal'
     });
 
+    $("#demo09").animatedModal({
+        modalTarget: 'ApolloModal'
+    });
+
 });
